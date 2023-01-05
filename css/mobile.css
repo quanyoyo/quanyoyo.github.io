@@ -86,6 +86,7 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
+    padding-right: 4%;
   }
 
   .content-title i {
