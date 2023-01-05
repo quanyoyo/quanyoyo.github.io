@@ -198,11 +198,11 @@ a:visited {
 }
 /* hobbies */
 .hobbies {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  display: flex;
+  /* grid-template-columns: 25% 25% 25% 25%;
   row-gap: 14px;
-  column-gap: 5px;
-  /* gap: 12px; */
+  column-gap: 5px; */
+  justify-content: space-between;
 }
 .hobbies i {
   justify-self: center;
@@ -211,15 +211,15 @@ a:visited {
   justify-content: center;
   align-items: center;
   padding-left: 2.5px;
-  height: 48px;
-  width: 48px;
+  height: 3rem;
+  width: 3rem;
   /* padding-left: 16px; */
   border: 1px solid #199cdb;
   border-radius: 50%;
 }
 .hobbies span {
   font-size: 14px;
-  justify-self: center;
+  justify-self: flex-end;
   align-self: center;
   color: #495057d1;
 }
