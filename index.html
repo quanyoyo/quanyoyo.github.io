@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/font.css" />
     <link rel="stylesheet" href="css/mobile.css" />
     <link rel="stylesheet" href="css/tablet.css" />
-<!--     <link
+    <!-- <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
@@ -27,11 +27,11 @@
     <section id="nav-bar">
       <nav class="nav">
         <div class="nav-bar-content">
-          <a href="#">Thông tin</a> <i class="icon-user">&nbsp;</i>
+          <i class="icon-user">&nbsp;</i> <a href="#">Thông tin</a>
         </div>
         <div class="big">
           <div class="nav-bar-content">
-            <a href="#">Lý lịch</a> <i class="icon-doc-text-inv">&nbsp;</i>
+            <i class="icon-doc-text-inv">&nbsp;</i> <a href="#">Lý lịch</a>
           </div>
           <div class="content-ly-lich">
             <!-- <h3>Nguyễn Kiều Quân</h3>
@@ -43,10 +43,10 @@
         </div>
 
         <div class="nav-bar-content">
-          <a href="#">Chứng chỉ</a> <i class="icon-mail-alt">&nbsp;</i>
+          <i class="icon-mail-alt">&nbsp;</i> <a href="#">Chứng chỉ</a>
         </div>
         <div class="nav-bar-content">
-          <a href="#">Dự Án</a> <i class="icon-star-1">&nbsp;</i>
+          <i class="icon-star-1">&nbsp;</i> <a href="#">Dự Án</a>
         </div>
       </nav>
     </section>
@@ -288,14 +288,18 @@
               <i class="ic-telescope">&nbsp;</i>
             </div>
             <div class="hobbies">
-              <i class="ic-megaphone">&nbsp;</i>
-              <i class="ic-strategy">&nbsp;</i>
-              <i class="ic-hotairballoon">&nbsp;</i>
-              <i class="ic-basket">&nbsp;</i>
-              <span>Nghe nhạc</span>
-              <span>Cầu lông</span>
-              <span>Xem phim</span>
-              <span>Đọc truyện</span>
+              <div class="hobby">
+                <i class="ic-megaphone">&nbsp;</i> <span>Nghe nhạc</span>
+              </div>
+              <div class="hobby">
+                <i class="ic-strategy">&nbsp;</i> <span>Cầu lông</span>
+              </div>
+              <div class="hobby">
+                <i class="ic-hotairballoon">&nbsp;</i> <span>Xem phim</span>
+              </div>
+              <div class="hobby">
+                <i class="ic-basket">&nbsp;</i> <span>Đọc truyện</span>
+              </div>
             </div>
           </div>
         </div>
@@ -347,10 +351,14 @@
             <h3>CV Cá nhân</h3>
             <div class="line-1">
               <span class="year">2022</span>
-              <i class="icon-user-1"></i>
-              <span>FUNiX</span>
-              <i class="icon-lamp"></i>
-              <span>Developer</span>
+              <div>
+                <i class="icon-user-1"></i>
+                <span>FUNiX</span>
+              </div>
+              <div>
+                <i class="icon-lamp"></i>
+                <span>Developer</span>
+              </div>
             </div>
             <div class="grid-3-rows">
               <span>Mô tả</span>
@@ -369,10 +377,8 @@
             <h3>Trang web đánh giá phim</h3>
             <div class="line-1">
               <span class="year">2022</span>
-              <i class="icon-user-1"></i>
-              <span>FUNiX</span>
-              <i class="icon-lamp"></i>
-              <span>Developer</span>
+              <div><i class="icon-user-1"></i> <span>FUNiX</span></div>
+              <div><i class="icon-lamp"></i> <span>Developer</span></div>
             </div>
             <div class="grid-3-rows">
               <span>Mô tả</span>
@@ -392,10 +398,8 @@
             <h3>Trang web bán quần áo</h3>
             <div class="line-1">
               <span class="year">2022</span>
-              <i class="icon-user-1"></i>
-              <span>FUNiX</span>
-              <i class="icon-lamp"></i>
-              <span>Developer</span>
+              <div><i class="icon-user-1"></i> <span>FUNiX</span></div>
+              <div><i class="icon-lamp"></i> <span>Developer</span></div>
             </div>
             <div class="grid-3-rows">
               <span>Mô tả</span>
@@ -417,10 +421,10 @@
     <!-- Footer -->
     <section id="footer" class="bg-grey">
       <div class="container">
-        <ul class="socials">
-          <li><i class="icon-facebook-circled"></i> Facebook</li>
-          <li><i class="icon-linkedin-circled"></i>Linkedin</li>
-          <li><i class="icon-github-circled"></i>Github</li>
+        <ul class="socials flex-wrap">
+          <li><i class="icon-facebook-circled"></i><span> Facebook</span></li>
+          <li><i class="icon-linkedin-circled"></i><span> Linkedin</span></li>
+          <li><i class="icon-github-circled"></i><span> Github</span></li>
         </ul>
       </div>
     </section>
