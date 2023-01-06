@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h2 {
+  margin: 0 2%;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #868e96;
+}
+strong {
+  display: block;
+}
+.goal-content {
+  border-bottom: 1px solid #ced4da;
+  padding: 5px 0;
+}
+.team-member {
+  padding: 5px 0;
+}
+.timeline {
+  padding-left: 0px;
+}
+.timeline-content-detail {
+  border-bottom: 1px dashed #199cdb;
+  padding-left: 10px;
+  padding-bottom: 2px;
+}
+.timeline-number {
+  color: #fff;
+  padding: 18px;
+  font-size: 218x;
+  background-color: #9775fa;
+  border-radius: 50%;
+  /* box-shadow: 0 15px 20px 0px rgba(0, 0, 0, 0.1); */
+}
+.part1,
+.part2,
+.part3,
+.part4,
+.part5 {
+  background-color: #f1f3f5;
+}
