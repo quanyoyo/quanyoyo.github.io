@@ -185,6 +185,9 @@
   .cert li {
     color: #495057d1;
   }
+  .first {
+    border-right: 0;
+  }
 
   /* project section */
   .project {

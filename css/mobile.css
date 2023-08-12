@@ -206,6 +206,9 @@
   .cert li {
     color: #495057d1;
   }
+  .first {
+    border-right: 0;
+  }
   .second {
     /* padding-left: 18px; */
     padding-top: 24px;
